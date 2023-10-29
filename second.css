@@ -1,0 +1,98 @@
+.containers{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+   border: 2px solid black;
+    width:100%;
+   
+   
+   
+}
+
+   
+
+.first{
+    background-color: brown;
+   width: 100%;
+    height: 120px;
+    
+}
+.second{
+    background-color: rgb(139, 236, 11);
+    width: 100%;
+    height: 120px;
+    
+}
+.third{
+    background-color: rgb(147, 88, 88);
+    width: 100%;
+    
+    height: 120px;
+    
+}
+.forth{
+    background-color: rgb(250, 3, 3);
+    width: 100%;
+    height: 120px;
+    
+}
+
+.button{
+   
+    background-color: brown;
+   width:80px;
+    color:rgb(221, 211, 211);
+    font-size:20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top:20px;
+    margin-left:40px;
+    align-items: center;
+
+
+}
+.con{
+    background-color: rgb(187, 36, 132);
+    width: 500px;
+    
+}
+.butten,:hover{
+  
+   color:black;
+}
+.butten {
+    opacity: 0.5;
+ 
+
+}
+.text{
+    width:300px;
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:15px;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    }
+.image{
+    display:flex;
+    margin-left: 22px;
+  justify-items: center;
+width:80px;
+border-radius: 30px;
+
+}
+
+.text-2{
+    font-family: bold;
+    font-size:18px;
+    color:white;
+    background-color: rgb(8, 25, 3);
+}
+
+@media (min-width:400px) and (max-width:600px) { 
+.containers{
+    flex-direction: column;
+}
+    
+}
